@@ -188,14 +188,14 @@ export const experiences = [
     role: "Tecnico Informatico - Administrador de Sistemas",
     company: "Ministerio de Defensa - Ejercito de Tierra - Regimiento de Transimisiones 21",
     date: "Oct 2008 - Act.",
-    desc: "Implantacion y despliegue de redes desde 0, Planificacion, despliegue de tendido, equipos y configuracion de servidores y servicios para lograr interoperabilidad total de los usuarios",
+    desc: "Implantación y despliegue de redes desde 0, Planificación y despliegue de tendido y equipos, configuración de servidores y servicios para lograr la interoperabilidad total de los usuarios, reparación y mantenimiento de equipos y sistemas.",
     skills: [
       "Mantenimiento y Administración de Equipos informáticos.",
       "Mantenimiento y Administración de equipos de electrónica de red.",
       "Administración de sistemas.",
       "Implantación, configuración y despliegue de redes.",
-      "Instalación y mantenimiento de redes de F.O.",
-      "Instalación y mantenimiento de terminales satélite.",
+      "Despliegue y mantenimiento de redes de F.O.",
+      "Despliegue y mantenimiento de redes satelitales.",
       "Nginx",
       "AWS",
       "EC2",
@@ -313,21 +313,73 @@ export const projects = [
    },
 
    {
-    id: 2,
-    title: "FlappyBird",
+    id: 3,
+    title: "Gestión de biblioteca",
     date: "",
     description:
-      "Divertido juego donde un lindo pajarraco atraviesa tuberias sumando puntos. Hecho en Unity para Android",
+      "Pequeña aplicación para la gestión de una biblioteca doméstica",
     image:
-      "https://github.com/misama484/FlappyBird/blob/main/Captura%20de%20pantalla%202023-01-17%20110624.png?raw=true",
+      "https://github.com/misama484/AAD/blob/AEVT4_Gest_Biblio_Mongo/Captura%20de%20pantalla%202023-01-17%20112455.png?raw=true",
+    tags: [
+      "Java",
+      "MongoDB",
+      "Windows"
+    ],
+    category: "Windows",
+    github: "https://github.com/misama484/AAD/tree/AEVT4_Gest_Biblio_Mongo",
+    webapp: "",
+    member: [
+       {
+         name: "Miguel Sanchez",
+         img: "https://avatars.githubusercontent.com/u/86913656?v=4",
+         linkedin: "https://www.linkedin.com/in/sanchezmartinezmiguel",
+         github: "https://github.com/misama484",
+       },
+     ]
+   },
+
+   {
+    id: 4,
+    title: "Shooter 3D",
+    date: "",
+    description:
+      "Shooter FPS en 3d - En desarrollo -",
+    image:
+      "https://github.com/misama484/FPS-3D/blob/main/Capturadepantalla2022-12-23200511.png?raw=true",
     tags: [
       "Unity",
       "C#",
-      "Android"
+      "Windows"
     ],
-    category: "android",
-    github: "https://github.com/misama484/FlappyBird",
-    webapp: "https://github.com/misama484/FlappyBird/blob/9e1882593cf5b119133610a8b91b8b57e407f23b/flappyFinal.apk",
+    category: "Games",
+    github: "https://github.com/misama484/FPS-3D",
+    webapp: "",
+    member: [
+       {
+         name: "Miguel Sanchez",
+         img: "https://avatars.githubusercontent.com/u/86913656?v=4",
+         linkedin: "https://www.linkedin.com/in/sanchezmartinezmiguel",
+         github: "https://github.com/misama484",
+       },
+     ]
+   },
+
+   {
+    id: 5,
+    title: "Space Invaders",
+    date: "",
+    description:
+      "Clasico juego de marcianitos",
+    image:
+      "https://github.com/misama484/SpaceInvadersScripts/blob/main/Capturadepantalla2023-01-17112142.png?raw=true",
+    tags: [
+      "Unity",
+      "C#",
+      "Android",
+    ],
+    category: "Games",
+    github: "https://github.com/misama484/SpaceInvadersScripts",
+    webapp: "",
     member: [
        {
          name: "Miguel Sanchez",
@@ -340,9 +392,5 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  { year: 2021, text: "Inicio de mis estudios" },
 ];

@@ -2,7 +2,9 @@ import styled from 'styled-components';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MailIcon from '@mui/icons-material/Mail';
+import { GitHub } from '@mui/icons-material';
 import { Bio } from '../../data/constants';
+
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -87,7 +89,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Miguel Sanchez</Logo>
+        <Logo>Miguel Sanchez Matínez -- Desarrollador Junior</Logo>
         <Nav>
           <NavLink href="#about">Inicio</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -96,12 +98,13 @@ function Footer() {
           <NavLink href="#projects">Proyectos</NavLink>
         </Nav>
         <SocialMediaIcons>
+          <SocialMediaIcon href={Bio.github} target='display'><GitHub/></SocialMediaIcon>
           <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.mail} target="display"><MailIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.mail} target="display"><MailIcon /></SocialMediaIcon>          
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Miguel Sanchez. All rights reserved.
+          &copy; 2023 Miguel Sanchez Martínez. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
