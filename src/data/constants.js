@@ -389,6 +389,32 @@ export const projects = [
        },
      ]
    },
+
+   {
+    id: 6,
+    title: "Portfolio personal",
+    date: "",
+    description:
+      "Codigo de este mismo portfolio, desarrollado en React, StyledComponents y MaterialUI",
+    image:
+      "https://github.com/misama484/SpaceInvadersScripts/blob/main/Capturadepantalla2023-01-17112142.png?raw=true",
+    tags: [
+      "React",
+      "MUI",
+      "StyledComponents",
+    ],
+    category: "Web",
+    github: "https://github.com/misama484/SpaceInvadersScripts",
+    webapp: "",
+    member: [
+       {
+         name: "Miguel Sanchez",
+         img: "https://avatars.githubusercontent.com/u/86913656?v=4",
+         linkedin: "https://www.linkedin.com/in/sanchezmartinezmiguel",
+         github: "https://github.com/misama484",
+       },
+     ]
+   },   
 ];
 
 export const TimeLineData = [
