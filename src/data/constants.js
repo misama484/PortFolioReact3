@@ -397,14 +397,14 @@ export const projects = [
     description:
       "Codigo de este mismo portfolio, desarrollado en React, StyledComponents y MaterialUI",
     image:
-      "https://github.com/misama484/SpaceInvadersScripts/blob/main/Capturadepantalla2023-01-17112142.png?raw=true",
+      "https://github.com/misama484/PortFolioReact3/blob/main/CapturaPortfolio.png?raw=true",
     tags: [
       "React",
       "MUI",
       "StyledComponents",
     ],
     category: "Web",
-    github: "https://github.com/misama484/SpaceInvadersScripts",
+    github: "https://github.com/misama484/PortFolioReact3",
     webapp: "",
     member: [
        {
