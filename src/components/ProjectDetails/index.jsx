@@ -69,7 +69,9 @@ const Desc = styled.div`
 `;
 
 const Image = styled.img`
-    width: 100%;
+    width: 50%;
+    display: flex;
+    align-self: center;
     object-fit: cover;
     border-radius: 12px;
     margin-top: 30px;

@@ -415,6 +415,58 @@ export const projects = [
        },
      ]
    },   
+
+   {
+    id: 7,
+    title: "Quizz Harry Potter",
+    date: "2023 - En desarrollo",
+    description:
+      "App desarrollada en React Native, con un pequeño juego de preguntas y una pequeña base de datos que se conecta a una API para mostrar informacion sobre los personajes de la saga y los hechizos",
+    image:
+      "https://raw.githubusercontent.com/misama484/hpquizz/master/imagesWeb/1.png?token=GHSAT0AAAAAACJRCOTH4JFKR2VLNPHBHOGOZKQS3AQ",
+    tags: [
+      "React Native",
+      "MateriaUI",
+      "React Native Paper",
+    ],
+    category: "Android",
+    github: "https://github.com/misama484/hpquizz",
+    webapp: "",
+    member: [
+       {
+         name: "Miguel Sanchez",
+         img: "https://avatars.githubusercontent.com/u/86913656?v=4",
+         linkedin: "https://www.linkedin.com/in/sanchezmartinezmiguel",
+         github: "https://github.com/misama484",
+       },
+     ]
+   },
+
+   {
+    id: 8,
+    title: "NotIces",
+    date: "2023 - En desarrollo",
+    description:
+      "App desarrollada en React Native, muestra una seleccion de noticias filtradas por categorias ademas de una prediccion del tiempo.",
+    image:
+      "https://raw.githubusercontent.com/misama484/notices/master/ImagenesWeb/1.png?token=GHSAT0AAAAAACJRCOTGFZ3YQ3QJL53O4WYYZKQSZSQ",
+    tags: [
+      "React Native",
+      "MateriaUI",
+      "React Native Paper",
+    ],
+    category: "Android",
+    github: "https://github.com/misama484/notices",
+    webapp: "",
+    member: [
+       {
+         name: "Miguel Sanchez",
+         img: "https://avatars.githubusercontent.com/u/86913656?v=4",
+         linkedin: "https://www.linkedin.com/in/sanchezmartinezmiguel",
+         github: "https://github.com/misama484",
+       },
+     ]
+   },
 ];
 
 export const TimeLineData = [

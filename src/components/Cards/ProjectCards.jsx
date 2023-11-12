@@ -18,8 +18,18 @@ const Button = styled.button`
     cursor: pointer;
     transition: all 0.8s ease-in-out;
 `
+const CardContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+`
+const ImageContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+`
 const Card = styled.div`
-    width: 330px;
+    width: 530px;
     height: 490px;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
@@ -44,7 +54,7 @@ const Card = styled.div`
 
 const Image = styled.img`
     width: 100%;
-    height: 180px;
+    height: 100%;
     background-color: ${({ theme }) => theme.white};
     border-radius: 10px;
     box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
@@ -129,7 +139,11 @@ const Avatar = styled.img`
 const ProjectCards = ({project,setOpenModal}) => {
     return (
         <Card onClick={() => setOpenModal({state: true, project: project})}>
-            <Image src={project.image}/>
+            <ImageContainer>
+                <Image src={project.image}/>
+            </ImageContainer>
+
+            <CardContainer>
             <Tags>
                 {project.tags?.map((tag, index) => (
                 <Tag>{tag}</Tag>
@@ -146,6 +160,7 @@ const ProjectCards = ({project,setOpenModal}) => {
                 ))}
             </Members>
             {/* <Button>View Project</Button> */}
+            </CardContainer>
         </Card>
     )
 }
