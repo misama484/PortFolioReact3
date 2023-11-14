@@ -21,16 +21,18 @@ const Button = styled.button`
 const CardContainer = styled.div`
     display: flex;
     flex-direction: column;
-    width: 180px;
+    align-self: center;
 `
 const ImageContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-self: center;
+    max-Height: 250px;
+    max-Width: 200px;
 `
 const Card = styled.div`
-    width: 530px;
-    height: 490px;
+    width: 300px;
+    height: 590px;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
     border-radius: 10px;

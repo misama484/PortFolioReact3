@@ -423,7 +423,7 @@ export const projects = [
     description:
       "App desarrollada en React Native, con un pequeño juego de preguntas y una pequeña base de datos que se conecta a una API para mostrar informacion sobre los personajes de la saga y los hechizos",
     image:
-      "https://raw.githubusercontent.com/misama484/hpquizz/master/imagesWeb/1.png?token=GHSAT0AAAAAACJRCOTH4JFKR2VLNPHBHOGOZKQS3AQ",
+      "https://raw.githubusercontent.com/misama484/hpquizz/master/imagesWeb/1.png?token=GHSAT0AAAAAACJRCOTH2MMGRWQ6DNETH33MZKTKGIA",
     tags: [
       "React Native",
       "MateriaUI",
@@ -449,7 +449,7 @@ export const projects = [
     description:
       "App desarrollada en React Native, muestra una seleccion de noticias filtradas por categorias ademas de una prediccion del tiempo.",
     image:
-      "https://raw.githubusercontent.com/misama484/notices/master/ImagenesWeb/1.png?token=GHSAT0AAAAAACJRCOTGFZ3YQ3QJL53O4WYYZKQSZSQ",
+      "https://raw.githubusercontent.com/misama484/notices/master/ImagenesWeb/1.png?token=GHSAT0AAAAAACJRCOTHJKVNXXQZIJDA5DLUZKTJQXA",
     tags: [
       "React Native",
       "MateriaUI",

@@ -14,9 +14,9 @@ const HeroSection = () => {
                 </HeroBg>
                 <HeroInnerContainer >
                     <HeroLeftContainer id="Left">
-                        <Title>Hola, soy <br /> Miguel Sanchez</Title>
+                        <Title>Hola, soy <br /> Miguel Sanchez </Title>
                         <TextLoop>
-                            Y soy
+                            
                             <Span>
                                 <Typewriter
                                     options={{
@@ -72,7 +72,7 @@ const HeroBg = styled.div`
   overflow: hidden;
   padding: 0 30px;
   top: 50%;
-  left: 50%;
+  left: 53%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 
