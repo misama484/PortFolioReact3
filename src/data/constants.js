@@ -467,6 +467,31 @@ export const projects = [
        },
      ]
    },
+
+   {
+    id: 9,
+    title: "SimonSay",
+    date: "2023 - En desarrollo",
+    description:
+      "App desarrollada en React, el mitico juego de SimonSay, utilizando ReactHooks y TailwindCSS.",
+    image:
+      "https://github.com/misama484/SimonSayReact/blob/main/src/assets/simonLogo.png?raw=true",
+    tags: [
+      "React",
+      "TailwindCSS",
+    ],
+    category: "Web",
+    github: "https://github.com/misama484/SimonSayReact",
+    webapp: "https://simonsay.miguelsanchez.dev",
+    member: [
+       {
+         name: "Miguel Sanchez",
+         img: "https://avatars.githubusercontent.com/u/86913656?v=4",
+         linkedin: "https://www.linkedin.com/in/sanchezmartinezmiguel",
+         github: "https://github.com/misama484",
+       },
+     ]
+   },
 ];
 
 export const TimeLineData = [
